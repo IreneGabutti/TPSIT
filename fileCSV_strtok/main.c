@@ -11,6 +11,7 @@
 #define LUNG 200
 #define RIGHE 16600
 #define COLONNE 11
+#define LUNGCAMPI 50
 
 #define DELIM ","
 
@@ -19,11 +20,11 @@
 typedef struct
 {
     int Rank;
-    char Name[50];
-    char Platform[50];
+    char Name[LUNGCAMPI];
+    char Platform[LUNGCAMPI];
     int Year;
-    char Genre[50];
-    char Publisher[50];
+    char Genre[LUNGCAMPI];
+    char Publisher[LUNGCAMPI];
     float NA_Sales;
     float EU_Sales;
     float JP_Sales;
