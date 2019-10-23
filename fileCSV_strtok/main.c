@@ -38,7 +38,6 @@ int main()
     int i;
     FILE *fp;
     char buffer[LUNG];
-    char* split;
     fp = fopen("giochi.csv","r");
     if(fp == NULL)
     {
